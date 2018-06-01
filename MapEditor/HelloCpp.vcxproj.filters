@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool">
+      <UniqueIdentifier>{6e2627b8-ff0b-4953-9980-c1cf1000978a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\BackGround">
+      <UniqueIdentifier>{74b4591f-8064-4b2a-828b-1cf173fa9eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Block">
+      <UniqueIdentifier>{12a9007d-5200-44ac-89c9-59f56131c3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Item">
+      <UniqueIdentifier>{b3741e2c-dd91-45ab-b966-cfc472c40736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Enemy">
+      <UniqueIdentifier>{0b849730-ab35-4fa2-84d4-708558617a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Top">
+      <UniqueIdentifier>{0ea61c0c-e952-4205-939d-7094d786f0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Map">
+      <UniqueIdentifier>{1aff910d-8328-44d1-9f41-438e07e97bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Map\MapManager">
+      <UniqueIdentifier>{2880e4c7-feb8-4711-a2b8-f7ae936999ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\fileio">
+      <UniqueIdentifier>{052eb28b-7864-4cad-bf48-34212dd3ee9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Etc">
+      <UniqueIdentifier>{8afbef76-902a-4b4b-abf6-9b87ceb79d88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchEventScene.cpp" />
+    <ClCompile Include="AnimationScene.cpp" />
+    <ClCompile Include="MapTool.cpp">
+      <Filter>MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp" />
+    <ClCompile Include="BGUI.cpp">
+      <Filter>MapTool\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockUI.cpp">
+      <Filter>MapTool\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyUI.cpp">
+      <Filter>MapTool\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemUI.cpp">
+      <Filter>MapTool\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="TopUI.cpp">
+      <Filter>MapTool\Top</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>MapTool\Map\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditor.cpp">
+      <Filter>MapTool\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>MapTool\Map\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>MapTool\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="EtcUI.cpp">
+      <Filter>MapTool\Etc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchEventScene.h" />
+    <ClInclude Include="AnimationScene.h" />
+    <ClInclude Include="MapTool.h">
+      <Filter>MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="BGUI.h">
+      <Filter>MapTool\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockUI.h">
+      <Filter>MapTool\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyUI.h">
+      <Filter>MapTool\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemUI.h">
+      <Filter>MapTool\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TopUI.h">
+      <Filter>MapTool\Top</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>MapTool\Map\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditor.h">
+      <Filter>MapTool\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>MapTool\Map\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>MapTool\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="EtcUI.h">
+      <Filter>MapTool\Etc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

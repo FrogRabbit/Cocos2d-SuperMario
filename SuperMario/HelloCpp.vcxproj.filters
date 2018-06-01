@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario">
+      <UniqueIdentifier>{3bb73f83-9f27-442b-a663-7b5a726162f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\TitleScene">
+      <UniqueIdentifier>{0df654bc-d810-43e9-b96b-59a139e7d97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene">
+      <UniqueIdentifier>{6e631406-38d5-49a9-8b6e-8510e288dd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\ResultScene">
+      <UniqueIdentifier>{742e05ba-44db-4b7f-b739-eef5e7b5a678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Map">
+      <UniqueIdentifier>{7f56dafa-e5dc-46d4-bf1c-f4be69d47c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element">
+      <UniqueIdentifier>{153f030d-49ff-40a7-b23b-3fae5ad4d60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Block">
+      <UniqueIdentifier>{986c321f-facf-450c-96f3-a2546d547fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Item">
+      <UniqueIdentifier>{98b5e416-303b-4fa8-b42c-08da77a87de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Enemy">
+      <UniqueIdentifier>{e00c1240-e6c9-445b-b384-62ae15a632c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Effect">
+      <UniqueIdentifier>{b8ceae57-7f8c-4977-8e16-c03884df622f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Player">
+      <UniqueIdentifier>{f373a052-5ed3-433b-b750-da84e8ec2aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Item\Flower">
+      <UniqueIdentifier>{ab3e0ef2-5712-465a-9d06-a63ec56a658a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Item\Star">
+      <UniqueIdentifier>{c091f442-e98d-41e4-9143-2a857b0a288e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Item\Coin">
+      <UniqueIdentifier>{535fd55f-334d-48c5-8015-c3ed053a717b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Item\MushRoom">
+      <UniqueIdentifier>{0440c0de-9bd2-42c1-9408-70e9b54f01f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Enemy\EnemyMush">
+      <UniqueIdentifier>{7968f0ba-3732-4dbe-a591-2e5ad90da322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Enemy\EnemyFlower">
+      <UniqueIdentifier>{e82db25e-6c3e-42ee-8e1a-122454dc9d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Enemy\EnemyTrutle">
+      <UniqueIdentifier>{78ab1627-fa59-47ba-a2cf-fbb2f30f14c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Element\Enemy\EnemyFlyTurtle">
+      <UniqueIdentifier>{34738a31-9700-460a-9c11-ddb6a757fea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Effect\FireEffect">
+      <UniqueIdentifier>{cc138b26-5294-4f43-84d8-1e6810001b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Effect\BlockEffect">
+      <UniqueIdentifier>{8b290587-0f31-4666-a71b-b45c145f7e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Effect\EnemyEffect">
+      <UniqueIdentifier>{2c672f7a-8c41-4c17-b451-f31f90012e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Fire">
+      <UniqueIdentifier>{c4c003b2-9101-4490-8ac0-59b73c603a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\UiManager">
+      <UniqueIdentifier>{4e561bdf-6311-4b5d-afa4-61e6a672367f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\GameInfo">
+      <UniqueIdentifier>{c30cecad-811d-430a-ac62-62e0d22d87a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mario\GameScene\Effect\ScoreEffect">
+      <UniqueIdentifier>{dc74996e-79df-46b8-8400-d4c102254e0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchEventScene.cpp" />
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Mario\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Mario\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Mario\GameScene\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBlock.cpp">
+      <Filter>Mario\GameScene\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp" />
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>Mario\GameScene\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Mario\GameScene\Element\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Mario\GameScene\Element\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MItem.cpp">
+      <Filter>Mario\GameScene\Element\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Mario\GameScene\Element\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Mario\GameScene\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MEffect.cpp">
+      <Filter>Mario\GameScene\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Mario\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Mario\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMushRoom.cpp">
+      <Filter>Mario\GameScene\Element\Item\MushRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemStar.cpp">
+      <Filter>Mario\GameScene\Element\Item\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFlower.cpp">
+      <Filter>Mario\GameScene\Element\Item\Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCoin.cpp">
+      <Filter>Mario\GameScene\Element\Item\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMush.cpp">
+      <Filter>Mario\GameScene\Element\Enemy\EnemyMush</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTurtle.cpp">
+      <Filter>Mario\GameScene\Element\Enemy\EnemyTrutle</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFlower.cpp">
+      <Filter>Mario\GameScene\Element\Enemy\EnemyFlower</Filter>
+    </ClCompile>
+    <ClCompile Include="FireEffect.cpp">
+      <Filter>Mario\GameScene\Effect\FireEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockEffect.cpp">
+      <Filter>Mario\GameScene\Effect\BlockEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEffect.cpp">
+      <Filter>Mario\GameScene\Effect\EnemyEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="UiManager.cpp">
+      <Filter>Mario\GameScene\UiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Mario\GameScene\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="FireManager.cpp">
+      <Filter>Mario\GameScene\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>Mario\GameScene\GameInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeOverScene.cpp">
+      <Filter>Mario\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Mario\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>Mario\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreEffect.cpp">
+      <Filter>Mario\GameScene\Effect\ScoreEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchEventScene.h" />
+    <ClInclude Include="TitleScene.h">
+      <Filter>Mario\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Mario\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Mario\GameScene\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBlock.h">
+      <Filter>Mario\GameScene\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="BlockManager.h">
+      <Filter>Mario\GameScene\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Mario\GameScene\Element\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Mario\GameScene\Element\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MItem.h">
+      <Filter>Mario\GameScene\Element\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Mario\GameScene\Element\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MEffect.h">
+      <Filter>Mario\GameScene\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Mario\GameScene\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Mario\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Mario\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMushRoom.h">
+      <Filter>Mario\GameScene\Element\Item\MushRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemStar.h">
+      <Filter>Mario\GameScene\Element\Item\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFlower.h">
+      <Filter>Mario\GameScene\Element\Item\Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCoin.h">
+      <Filter>Mario\GameScene\Element\Item\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMush.h">
+      <Filter>Mario\GameScene\Element\Enemy\EnemyMush</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTurtle.h">
+      <Filter>Mario\GameScene\Element\Enemy\EnemyTrutle</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFlower.h">
+      <Filter>Mario\GameScene\Element\Enemy\EnemyFlower</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEffect.h">
+      <Filter>Mario\GameScene\Effect\FireEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockEffect.h">
+      <Filter>Mario\GameScene\Effect\BlockEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEffect.h">
+      <Filter>Mario\GameScene\Effect\EnemyEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="UiManager.h">
+      <Filter>Mario\GameScene\UiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Mario\GameScene\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="FireManager.h">
+      <Filter>Mario\GameScene\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Mario\GameScene\GameInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeOverScene.h">
+      <Filter>Mario\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Mario\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>Mario\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreEffect.h">
+      <Filter>Mario\GameScene\Effect\ScoreEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
